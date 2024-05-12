@@ -4,6 +4,7 @@ project(hey_Pal)
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Include directories
 include_directories("${PROJECT_SOURCE_DIR}/headers")
